@@ -18,6 +18,7 @@ import java.util.Map;
 @RestController
 public class UserController {
 private UserService userService;
+
 private SecurityTokenGenerate securityTokenGenerator;
 @Autowired
 public UserController(UserService userService,SecurityTokenGenerate securityTokenGenerate){
